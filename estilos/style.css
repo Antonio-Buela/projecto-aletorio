@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 *{
     margin: 0px;
     padding: 0px;
@@ -7,11 +8,14 @@
 }
 
 header{
-    background-color: rgb(207, 82, 88);
+    background-color: rgb(219, 109, 115);
     color: white;
-    text-align: center;
+    
     padding:30px ;
     background-attachment: fixed;
+}
+header h1{
+    padding-left: 30px;
 }
 menu a{
     text-decoration: none;
@@ -23,7 +27,7 @@ menu a:hover{
 
 }
 menu{
-    background-color: rgba(0, 0, 0, 0.733);
+  
     padding: 10px;
 
 
