@@ -12,10 +12,13 @@ header{
     color: white;
     
     padding:30px ;
-    background-attachment: fixed;
+    display: flex;
 }
 header h1{
     padding-left: 30px;
+}
+header p{
+    ;
 }
 menu a{
     text-decoration: none;
@@ -27,16 +30,14 @@ menu a:hover{
 
 }
 menu{
-  
     padding: 10px;
-
-
 }
-main{
-    background-color: rgb(204, 204, 151);
-}
-main img{
-    width: 100%;
-    background-attachment: fixed;
-    height: auto;
+
+.cubo1{
+    background-color: black;
+    border-radius: 10px ;
+    
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.312);
+    margin: 50px;
 }
