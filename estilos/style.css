@@ -12,28 +12,26 @@ header{
     color: white;
     display:flex;
     top: 0;
-  
     position: sticky;
 }
 header h1{
     padding: 10px;
 }
+menu{
+    padding: 10px;
+    margin: 10px;
+    right: auto;
+}
 menu a{
     text-decoration: none;
      padding: 5px;
     color: white;
-    
 }
 menu a:hover{
     background-color: rgba(0, 0, 0, 0.548);
     
 }
-menu{
-    padding: 10px;
-    margin: 10px;
-    right: auto;
- 
-}
+
 
 main h2{
     background-color: rgba(0, 0, 0, 0.5);
@@ -56,8 +54,20 @@ main h2{
     background-color: black;
     color: azure;
     padding: 10px;
+   
+   display: flex;
+ 
 }
-
+#bloco img{
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    
+}
+#bloco1 {
+   background-color: white;
+   border-radius: 10px;
+}
 footer{
     text-align: center;
     padding: 7px;
