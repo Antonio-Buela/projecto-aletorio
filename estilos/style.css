@@ -51,22 +51,44 @@ main h2{
     background-attachment: fixed;
 }
 #bloco{
-    background-color: black;
-    color: azure;
+    background-color: 5A5E61;
+    display: flex;
     padding: 10px;
-   
-   display: flex;
+
+   margin: ;
  
 }
-#bloco img{
+#bloco1{
+    background-color: ;
+    padding: 100px;
+    border-radius: 10px;
+    width: 80px;
+    color: black;
+    background: url(../img/img1.png);
+    background-size: cover;
+    padding: 50px;
+
+}
+#bloco2{
     background-color: white;
-    width: 100%;
-    padding: 10px;
+    padding: 100px;
+    border-radius: 10px;
+    width: 80px;
     
 }
-#bloco1 {
-   background-color: white;
-   border-radius: 10px;
+#bloco3{
+    background-color: white;
+    padding: 100px;
+    border-radius: 10px;
+    width: 80px;
+    
+}
+#bloco4{
+    background-color: white;
+    padding: 100px;
+    border-radius: 10px;
+    width: 80px;
+    
 }
 footer{
     text-align: center;
